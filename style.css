@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+}
+section{
+    height: 400px;
+    padding-top: 70px;
+}
+.half-width{
+width: 28%;
+float: left;
+padding-left: 12%;
+margin-left: 7%;
+}
+.half-width img{
+    width: 100%;}
+
+h1{
+    font-size: 30px;
+color:rgb(221, 78, 78);
+font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: dimgray;
+}
+.link-button{
+    text-decoration: none ;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  
+}
+img{
+    float:left;
+    
+}
+.section-2{
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    height: 500px;
+}
+.work-section{
+    background-image: url(images/latest-work-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.work-div{
+    float: left;
+/* display: inline-block; */
+    width: 30%;
+margin: 5px;
+padding: 3px;
+}
+.work-div img{
+    height: 250px;
+    width: 100%;
+    padding-left: 35px;
+    margin-left: 20px;
+}
+.work-h2{
+text-align: center;
+}
+
+.section-4-div{
+    text-align: center;
+}
+.section-4-div h1{
+    color: black;
+}
+.section-4-div h3{
+    font-weight: 700;
+}
+.section-4-div h4{
+    font-weight: 10;
+}
+.section-4-div article{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.section-4-message{
+    text-align: center;
+    width: 40%;
+    height: 120px;
+    padding-top: 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+   margin:auto;
+
+    
+
+}
+.section-4{
+background-image: url(images/footer-bg.png);
+background-size: cover;
+background-position: left;
+background-repeat: no-repeat;
+padding-bottom: 250px;
+}
+footer p{
+    text-align: center;
+}
